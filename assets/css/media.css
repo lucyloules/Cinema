@@ -1,0 +1,27 @@
+@media (min-width:350px) and (max-width:700px){ /*tamaño min y tamaño max.*/
+  [class*='col-4']{
+    width: 100%;
+  }
+    header{
+    display: none;
+  }
+ .star{
+  font-size: 1.5em;
+  }
+  .btn-bars{
+  	display: block;
+  	font-size: 2em;
+  	width: 1.5em;
+  	color: #fff;
+  	float:right;
+  	padding: 0.5em;
+  	padding-right: 1.5em;
+  }
+
+    .btn-bars:hover{
+  	font-weight: bolder;
+  	color: #fff;
+  	border:1px solid #fff;
+  	border-radius: 5px;
+  }
+}

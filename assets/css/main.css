@@ -1,0 +1,114 @@
+/*barra munu*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+background-color: #fff;
+height: 5em;
+}
+.title{
+  color: #bbbb;
+  padding-left: 3%;
+  padding-top: 3%;
+ /* outline: 1px solid red;*/
+}
+input{
+  width: 40%;
+  height: 3em;
+}
+.search{
+  float: right;
+  text-align: right;
+  padding-right: 10%;
+ /* outline: 1px solid red;*/
+}
+/*section banner*/
+.logo{
+  height: 4em;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+.banner{
+  background-color:#424242; 
+}
+#banner{
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+}
+.icono{
+  width: 5%;
+  background-image: url(../img/icono.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%;
+  margin-left: 20%;
+  margin-top: 10%;
+ /* outline: 1px solid red;*/
+}
+.boxHero{
+  float: right;
+  text-align: left;
+  color: #fff;
+  padding-left: 35%;
+}
+h1{
+  font-size: 2.5em;
+  font-weight: bolder;
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+hr{
+  width: 70%;
+  height: 2px;
+  color: #aaa;
+}
+button.all{
+  width: 4.5em;
+  height: 2.5em;
+  color: green;
+  border:1px solid green;
+  border-radius: 5px;
+  background-color:transparent; 
+  padding: 0.5em;
+}
+button.trailer,button .ticket{
+  display: block;
+  float: left;
+  color: #fff;
+  width: 3em;
+  height: 2em;
+}
+/*section images and video*/
+.images{
+  width: 100%;
+  background-color: yellow;
+}
+.lego{
+  background-image: url(../img/imagen1.jpg);
+  background-size: cover;
+}
+.spider{
+  background-image: url(../img/imagen2.jpg);
+  background-size: cover;
+}
+.avengers{
+  background-image: url(../img/imagen3.jpg);
+  background-size: cover;
+}
+.interestelar{
+  background-image: url(../img/imagen4.jpg);
+  background-size: cover;
+}
+.simios{
+  background-image: url(../img/imagen5.jpg);
+  background-size: cover;
+}
+.bigHero{
+  background-image: url(../img/imagen6.jpg);
+  background-size: cover;
+}
