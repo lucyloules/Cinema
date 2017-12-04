@@ -45,9 +45,9 @@ input{
   background-image: url(../img/icono.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3%;
-  margin-left: 20%;
-  margin-top: 10%;
+  padding: 2.5%;
+  margin-left: 23%;
+  margin-top: 16%;
  /* outline: 1px solid red;*/
 }
 .boxHero{
@@ -71,44 +71,60 @@ button.all{
   width: 4.5em;
   height: 2.5em;
   color: green;
-  border:1px solid green;
+  border:2px solid green;
   border-radius: 5px;
   background-color:transparent; 
   padding: 0.5em;
 }
-button.trailer,button .ticket{
+button.trailer,button.ticket, button.ticket2{
   display: block;
-  float: left;
   color: #fff;
-  width: 3em;
-  height: 2em;
+  width: 12em;
+  height: 3em;
+  border:none;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: #DEBF16; 
 }
+button.ticket, button.ticket2{
+  background-color: #BF7D14; 
+}
+button.ticket2{
+  width: 15em;
+}
+
+.paragraph{
+  font-size: 0.8em;
+  margin: 0;
+ /* outline: 1px solid red;*/
+}
+
 /*section images and video*/
 .images{
   width: 100%;
-  background-color: yellow;
+  height: 18em;
+  background-color: #DEBF16;
 }
-.lego{
-  background-image: url(../img/imagen1.jpg);
-  background-size: cover;
+.imgs{
+width: 15%;
+height: 15%;
+float: left;
+margin: 0.5%;
 }
-.spider{
-  background-image: url(../img/imagen2.jpg);
-  background-size: cover;
+img{
+  width: 100%;
+  height: 15em;
 }
-.avengers{
-  background-image: url(../img/imagen3.jpg);
-  background-size: cover;
+.video{
+  padding: 0;
+/*  outline: 1px solid red;*/
 }
-.interestelar{
-  background-image: url(../img/imagen4.jpg);
-  background-size: cover;
+iframe{
+  width: 100%;
+  height: 30em;
+  margin: 0;
+/*  outline: 1px solid green;*/
 }
-.simios{
-  background-image: url(../img/imagen5.jpg);
-  background-size: cover;
-}
-.bigHero{
-  background-image: url(../img/imagen6.jpg);
-  background-size: cover;
+.ocre{
+  color:#BF7D14;
 }
